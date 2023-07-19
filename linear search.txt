@@ -1,0 +1,13 @@
+def search(list1,key):
+    for i in range(len(list1)):
+        if key == list1[i]:
+            print("key element is found at index : ",i)
+            break
+    else:
+        print("key element not found !")
+            
+list1 = [34,23,5,6,7,1,23,8]
+print(list1)
+key = int(input("enter the key elements : "))
+search(list1,key)
+            
